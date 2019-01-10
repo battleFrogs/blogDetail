@@ -2,8 +2,8 @@
 
 menu:
   主页: /
-  #随笔: /tags/随笔/
-  相册: /photos
+  随笔: /tags/随笔/
+  #相册: /photos
 
 # SubNav
 subnav:
@@ -16,8 +16,8 @@ subnav:
   #jianshu: "#"
   #douban: "#"
   #segmentfault: "#"
-  #bilibili: "#"
-  #acfun: "#"
+  bilibili: "http://space.bilibili.com/19311647?"
+  acfun: "http://www.acfun.cn/member/#area=splash"
   #mail: "mailto:litten225@qq.com"
   #facebook: "#"
   #google: "#"
@@ -110,7 +110,7 @@ style:
 # slider的设置
 slider:
   # 是否默认展开tags板块
-  showTags: false
+  showTags: true
 
 # 智能菜单
 # 如不需要，将该对应项置为false
@@ -120,6 +120,7 @@ slider:
 smart_menu:
   innerArchive: '所有文章'
   #friends: '友链'
+  #tagcloud: '标签'
   aboutme: '关于我'
 
 friends:
